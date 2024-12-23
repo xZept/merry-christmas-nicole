@@ -1,4 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+* {
+    background-color: rgb(239, 230, 221);
+}
+
+#message {
+    color: rgb(35, 31, 32);
+    background-color: rgb(126, 189, 194);
+}
 
 body {
     font-family: 'poppins', sans-serif;
@@ -9,7 +17,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #message-container {
-    background-color: oklch(78.33% 0.108 326.54);
+    background-color: rgb(126, 189, 194);
     box-shadow: 0 0 15px rgba(0, 0, 0, 0.455);
     
     transition: height 1.5s ease-in-out;
